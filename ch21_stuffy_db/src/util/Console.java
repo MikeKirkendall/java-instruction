@@ -1,4 +1,4 @@
-package prs.util;
+package util;
 
 import java.util.Scanner;
 
@@ -6,19 +6,21 @@ public class Console {
 
 	private static Scanner sc = new Scanner(System.in);
 
+	// get string should not allow an empty string
 	public static String getString(String prompt) {
 		boolean isValid = false;
 		String s = null;
 		while (!isValid) {
 			System.out.print(prompt);
-			s = sc.nextLine();
-			if (s!= null && s.equals("")) {
+			s = sc.nextLine(); // read user entry
+			if (s != null && s.equals("")) {
 				System.out.println("Error - entry required. Try Again");
 
 			} else {
 				isValid = true;
 			}
 		}
+		sc.nextLine(); // discard any other data entered on the line
 		return s;
 	}
 
@@ -33,7 +35,7 @@ public class Console {
 			} else {
 				System.out.println("Error! Invalid integer. Try again.");
 			}
-			sc.nextLine();
+			// sc.nextLine(); // discard any other data entered on the line
 		}
 		return i;
 	}
@@ -65,7 +67,7 @@ public class Console {
 			} else {
 				System.out.println("Error! Invalid number. Try again.");
 			}
-			sc.nextLine();
+			sc.nextLine(); // discard any other data entered on the line
 		}
 		return d;
 	}
@@ -85,6 +87,4 @@ public class Console {
 		}
 		return d;
 	}
-
-
 }
