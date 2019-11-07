@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GreatestCommonDivisorApp.java&apos; to &apos;Ch04_prj4_GreatestCommonDivisor/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Ch04_prj4_GreatestCommonDivisor&apos;&#x0D;&#x0A;- Destination element: &apos;Ch04_prj4_GreatestCommonDivisor/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;GreatestCommonDivisorApp.java&apos;" description="Copy compilation unit" destination="/src&lt;" element1="/src&lt;{GreatestCommonDivisorApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1570719254194" units="1" version="1.0"/>
+</session>

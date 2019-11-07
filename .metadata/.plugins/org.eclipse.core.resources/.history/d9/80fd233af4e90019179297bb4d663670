@@ -1,0 +1,21 @@
+
+public class StudentRegistrationFormApp {
+
+	public static void main(String[] args) {
+		System.out.println("Welecome toe the Student Registration App");
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print( "Enter firstName+ " " + lastName");
+		
+	}
+
+}
+
+
+
+
+
+
+//Create an application that allows a student to enter registration information. The
+// application should display a completion message that includes the user’s full name and a
+// temporary password.
